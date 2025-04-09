@@ -1,0 +1,29 @@
+This are GitHub commands
+
+Basic Commands:
+git init: Initializes a new Git repository in the current directory. 
+git clone <repository_url>: Creates a local copy of a remote repository. 
+git add <file>: Stages changes in files for committing. 
+git commit -m "<message>": Saves staged changes with a commit message. 
+git status: Displays the current status of your repository, including untracked, modified, and staged files. 
+git diff: Shows the differences between the working directory and the staging area, or between commits. 
+Branching and Merging:
+git branch: Lists, creates, or deletes branches. 
+git checkout <branch_name>: Switches to a different branch. 
+git merge <branch_name>: Merges changes from another branch into the current branch. 
+git rebase <branch_name>: Integrates changes from another branch into the current branch by "fast-forwarding" the current branch. 
+git revert <commit_hash>: Undoes a specific commit by creating an opposite commit.
+Remote Repository Interaction:
+git remote add <name> <url>: Adds a remote repository. 
+git push <remote> <branch>: Pushes local commits to a remote repository. 
+git pull <remote> <branch>: Downloads and integrates remote changes. 
+git fetch <remote>: Downloads changes from a remote repository without merging them. 
+Other Useful Commands:
+git log: Shows the commit history of a repository. 
+git show <commit_hash>: Displays the details of a specific commit. 
+git reset <commit_hash>: Resets the current branch to a specific commit. 
+git rm <file>: Removes a file from the Git repository. 
+git config: Configures Git settings (user name, email, etc.). 
+git stash: Temporarily stores unstaged changes. 
+git tag <tag_name>: Creates a tag for a specific commit. 
+git restore <file>: Discards or unstages uncommitted local changes.
